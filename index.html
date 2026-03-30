@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>project evo</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<img src="https://image2url.com/r2/default/images/1774836710500-c6746b21-1a06-4ac8-955e-3cc44ec205b8.png" class="crosshair" id="crosshair">
+
+<div class="container">
+
+<header>
+  <img src="https://image2url.com/r2/default/images/1774837043294-e536b6c3-aabd-4928-b13d-9b20432e2cb2.blob">
+  <nav>
+    <a href="#">Products</a>
+  </nav>
+</header>
+
+<div class="search-bar">
+  <input type="text" placeholder="project evo donate shop search-bar">
+</div>
+
+<div class="warning-box">
+   project Evo donate shop              [make a donate ticket in server after you have bought your visa or paypal gift card]  
+</div>
+
+<div class="products">
+
+<div class="product">
+  <img src="https://storage.sell.app/store/74878/listings/HwSHZnOH837TAIl0elWPbA3jPPW2cDnr0fYo9KWS.webp">
+  <h3>full locker Bundle</h3>
+  <div class="price">$20.00</div>
+  <div class="stock">100 in stock</div>
+  <div class="overlay">
+  <a href="https://www.g2a.com/search?query=%20PayPal%20Gift%20Card" target="_blank" class="paypal gift cards">PayPal gift cards</a>
+    <a href="https://www.eneba.com/store/all?text=rewarble%20visa&regions[]=global" target="_blank" class="visa gift cards">visa gift cards</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/08/fortnite-axe-of-champions-pickaxe.jpg?w=1600&h=900&fit=crop">
+  <h3>fncs Bundle</h3>
+  <div class="price">$10.00</div>
+  <div class="stock">100 in stock</div>
+  <div class="overlay">
+    <a href="https://www.g2a.com/search?query=%20PayPal%20Gift%20Card" target="_blank" class="paypal gift cards">PayPal gift cards</a>
+    <a href="https://www.eneba.com/store/all?text=rewarble%20visa&regions[]=global" target="_blank" class="visa gift cards ">visa gift cards</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="https://preview.redd.it/tbh-ive-seen-some-people-on-twitter-and-stuff-complaining-v0-vuv0dooliw7e1.jpeg?width=1080&crop=smart&auto=webp&s=9c0a26e0077494bb664d0d350173b35863fc3048">
+  <h3>og Bundle Bundle</h3>
+  <div class="price">$7.00</div>
+  <div class="stock">100 in stock</div>
+  <div class="overlay">
+    <a href="https://www.g2a.com/search?query=%20PayPal%20Gift%20Card" target="_blank" class="paypal gift cards">PayPal gift cards</a>
+    <a href="https://www.eneba.com/store/all?text=rewarble%20visa&regions[]=global" target="_blank" class="visa gift cards">visa gift cards</a>
+  </div>
+</div>
+<div class="product">
+  <img src="https://www.videogamer.com/wp-content/uploads/travis-scott-fortnite.jpg">
+  <h3>travis scott Bundle</h3> 
+  <div class="price">$5.00</div>
+  <div class="stock">100 in stock</div>
+  <div class="overlay">
+    <a href="https://www.g2a.com/search?query=%20PayPal%20Gift%20Card" target="_blank" class="paypal gift cards">PayPal gift cards</a>
+    <a href="https://www.eneba.com/store/all?text=rewarble%20visa&regions[]=global" target="_blank" class="visa gift cards">visa gift cards</a>
+  </div>
+</div>
+<div class="product">
+  <img src="https://www.dexerto.com/cdn-image/wp-content/uploads/2025/05/13/Leviathan-Axe-1024x576.jpg?width=1200&quality=75&format=auto">
+  <h3>gaming Bundle</h3>
+  <div class="price">$4.00</div>
+  <div class="stock">100 in stock</div>
+  <div class="overlay">
+    <a href="https://www.g2a.com/search?query=%20PayPal%20Gift%20Card" target="_blank" class="paypal gift cards">PayPal gift cards</a>
+    <a href="https://www.eneba.com/store/all?text=rewarble%20visa&regions[]=global" target="_blank" class="visa gift cards">visa gift cards</a>
+  </div>
+</div>
+<div class="product">
+  <img src="https://w0.peakpx.com/wallpaper/541/485/HD-wallpaper-kor-sniper-fortnite-skin-fortnite.jpg">
+  <h3>sweat Bundle</h3>
+  <div class="price">$3.00</div>
+  <div class="stock">100 in stock</div>
+  <div class="overlay">
+    <a href="https://www.g2a.com/search?query=%20PayPal%20Gift%20Card" target="_blank" class="paypal gift cards">PayPal gift cards</a>
+    <a href="https://www.eneba.com/store/all?text=rewarble%20visa&regions[]=global" target="_blank" class="visa gift cards">visa gift cards</a>
+  </div>
+</div>
+
+<script>
+const crosshair = document.getElementById('crosshair');
+document.addEventListener('mousemove', e => {
+  crosshair.style.left = e.clientX + 'px';
+  crosshair.style.top = e.clientY + 'px';
+});
+
+const hoverTargets = document.querySelectorAll('a, .product');
+
+hoverTargets.forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    crosshair.style.transform = 'translate(-50%, -50%) scale(1.4)';
+  });
+
+  el.addEventListener('mouseleave', () => {
+    crosshair.style.transform = 'translate(-50%, -50%) scale(0.8)';
+  });
+});
+</script>
+
+</body>
+</html>
